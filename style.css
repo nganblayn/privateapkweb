@@ -64,16 +64,17 @@ p {
   width: 650px;
   height: 200px;
   /* border: 1px solid orange; */
-  margin-top: 370px;
-  margin-left: 750px;
+  top: 60%;
+  left: 52%;
   font-style: italic;
   line-height: 30px;
 }
 h6 {
-  width: 270px;
-  height: 20px;
   /* border: 1px solid orange; */
-  margin-top: 610px;
-  margin-left: 500px;
+  position: absolute;
   text-align: center;
+  transform: translateX(-50%);
+  bottom: 2%;
+  left: 50%;
+  width: 270px;
 }
