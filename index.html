@@ -4,31 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Private apk</title>
   </head>
   <body>
-    <div class="header">
-      <img src="./img/blayndevices.webp" alt="devices" />
-      <div class="menubar">
-        <img src="./img/blaynwhitelogo.svg" alt="logo" />
-        <div>
-          <div class="menuitem">Home</div>
-          <div class="menuitem">Tablet</div>
-          <div class="menuitem">Self</div>
-          <div class="menuitem">Mobile</div>
-          <div class="menuitem">FGK</div>
-          <div class="menuitem">bManager</div>
-          <div class="menuitem">Single test</div>
-        </div>
-      </div>
-    </div class="header">
-    <div class="box box1">
-        <img src="./img/tablet.webp" alt="T2mini">
-    </div>
-    <div class="box box2"></div>
-    <div class="box box3"></div>
-    <div class="box box4"></div>
-    <div class="box box5"></div>
-    <div class="box box6"></div>
+    <nav>
+      <ul class="menu">
+        <li>
+          <img src="./img/blaynwhitelogo.svg" alt="blaynlogo" id="logo" />
+        </li>
+        <li><a href="./index.html">Home</a></li>
+        <li>
+          <a href="#">Tablet</a>
+          <ul class="submenu">
+            <li><a href="./Tablet/tablet_release.html">Release</a></li>
+            <li><a href="./Tablet/tablet_alpha.html">Alpha</a></li>
+            <li><a href="./Tablet/tablet_stg.html">Stg</a></li>
+            <li><a href="./Tablet/umat_alpha.html">Umat(Alpha)</a></li>
+            <li><a href="./Tablet/umat_stg.html">Umat(Stg)</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Self</a>
+          <ul class="submenu">
+            <li><a href="./Self/self_release.html">Release</a></li>
+            <li><a href="./Self/self_alpha.html">Alpha</a></li>
+            <li><a href="./Self/self_stg.html">Stg</a></li>
+          </ul>
+        </li>
+        <li><a href="">bManager</a></li>
+        <li><a href="">FGK</a></li>
+        <li><a href="">Single test</a></li>
+      </ul>
+    </nav>
   </body>
 </html>
